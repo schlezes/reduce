@@ -30,3 +30,4 @@ const dist = y.reduce((a, b) => {
   //this changes do not work
   // takes some time to update change
   // git diff to work
+  // update requires page refresh

@@ -22,17 +22,3 @@ const dist = y.reduce((a, b) => {
   }, 0);
   
   console.log("dist =", dist)
-
-  // some changes
-  // these changes will not commit
-  // try more changes
-  // and somm more changes
-  //this changes do not work
-  // takes some time to update change
-  // git diff to work
-  // update requires page refresh
-  // try again
-  // line 35
-  // line 36
-  // line 37
-  // line 38

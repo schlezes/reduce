@@ -24,5 +24,4 @@ console.log(y.reduce((a, b) => {return b}, 0));
 */
 
 
-console.log(y.reduce((a,b) => (a + b), 0)
-
+console.log(y.reduce((a,b) => (a + b), 0))

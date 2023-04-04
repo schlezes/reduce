@@ -22,3 +22,5 @@ const dist = y.reduce((a, b) => {
   }, 0);
   
   console.log("dist =", dist)
+
+  // hello git

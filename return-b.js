@@ -22,3 +22,6 @@ const dist = y.reduce((a, b) => {
   }, 0);
   
   console.log("dist =", dist)
+
+  // some changes
+  // these changes will not commit

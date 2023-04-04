@@ -1,5 +1,6 @@
 /*
   Take any array
+
   we just want the final value of the array
 
     we do not care about slope
@@ -8,19 +9,23 @@
     we do not care about the sum of the values of the array
 
   we can use reduce and just return the final b
+
   y.reduce((a,b) => {return b}, 0)
 */
 
 
-const y = [4,2,-1, 24, 10, 9]
-console.log(y.reduce((a,b) => a+b))
+const y = [4, 2, -1, 24, 10, 9]
 
-const dist = y.reduce((a, b) => {
+console.log(y.reduce((a, b) => {return b}, 0));
 
-    console.log("+", a, b, a + b)
-      return  b
-  }, 0);
-  
-  console.log("dist =", dist)
+/*
+  if we want the sum of values
+  use: y.reduce((a,b) => (a + b), 0)
+*/
 
-  // hello git
+
+console.log(y.reduce((a,b) => a + b), 0)
+
+
+  console.log("last_b =", b)
+

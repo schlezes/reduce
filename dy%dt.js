@@ -24,8 +24,6 @@ const y = [4,2,-1]  //works
 const dist = y.reduce((a, b, index) => {
     const slope = y[index + 1] - y[index]
     if (slope <= 0) {
-      // console.log(a, index, slope, y[index + 1])
-      // console.log(a, b)
        a = slope
        console.log(a, b, a + b)
       return a + b

@@ -23,6 +23,7 @@ const ray = [
   */
  ray.more = {}
  ray.and = []
+ ray.end = {}
 
  console.log(Object.keys(ray))
  console.log(ray)

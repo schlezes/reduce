@@ -17,9 +17,13 @@ const ray = [
     add property more = {}
     more now becomes a key in the array
     with value = {} empty object
-    add property = []
-    and now becomes a key in the array
-    with value = [] enpty array
+    add property and = []
+    and becomes a key in the array
+    with value = [] empty array
+    add property end = {} empty array
+    end becomes a key in the array
+    with value = {} empty object
+
   */
  ray.more = {}
  ray.and = []
